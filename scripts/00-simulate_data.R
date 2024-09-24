@@ -1,10 +1,10 @@
 #### Preamble ####
-# Purpose: Simulates... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 11 February 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Simulates... sta304_paper1
+# Author: Jiaqi Lai
+# Date: 24 September 2024
+# Contact: jiaqi.lai@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
+# Pre-requisites: ##
 # Any other information needed? [...UPDATE THIS...]
 
 
@@ -13,7 +13,14 @@ library(tidyverse)
 # [...UPDATE THIS...]
 
 #### Simulate data ####
-# [...ADD CODE HERE...]
+set.seed(304)
+
+### define the number of records to stimulate ###
+number_of_record <- 300
+
+### define the date ###
+start_date <- as.Date("2018-01-01")
+end_date <- as.Date("2023-12-31")
 
 
 
